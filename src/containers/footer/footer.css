@@ -1,0 +1,18 @@
+.f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.f_name, .f_rights {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.f_rights {
+    margin-bottom: 10px;
+}
+

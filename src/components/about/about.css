@@ -1,0 +1,157 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.a_left{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    margin-top:100px
+}
+
+.a_right {
+    flex: 1;
+    padding-right: 30px;
+    overflow-wrap: break-word;
+  }
+
+.a_card.bg{
+    position: absolute;
+    top:70px;
+    left: 70px;
+    background-color: #959ca7;
+}
+
+.a_card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow:hidden;
+}
+
+.a_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.a_title{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.a_descrip{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.a .a_right h3{
+    font-size: 27px;
+    font-weight: 450;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.a .a_right ul{
+    padding-top: 20px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+
+.a_right li{
+    font-size: 18px;
+    font-weight: 300;  
+    margin: 2px; 
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.a_right li span {
+    position: relative;
+    left: 10px;
+}
+
+.a_right li:before{
+    content : "\2661";
+}
+
+.a_right li:hover{
+    font-weight: 350;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 700px){
+    .a_card{
+        height: 50vh;
+    }
+
+    .a_card.bg{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .a .a_right .a_descrip{
+        text-align: left;
+    }
+
+    .a_left{
+        width: 100%;
+    }
+
+    .a_card{
+        height: 30vh;
+    }
+
+    .a_card.bg{
+        display: none;
+    }
+
+    .a_right{
+        padding: 20px;
+    }
+
+    .a_right li{
+        font-size: 15px;
+        font-weight: 300;  
+        margin: 2px; 
+        display: flex;
+        align-items: center;
+    }
+
+    .a_right li:hover{
+        font-weight: 350;
+        font-size: 16px;
+    }
+
+    .a_right ul{
+        margin-left: 15px;
+    }
+
+    .a_descrip {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
+
+  
+
+  
