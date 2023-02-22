@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {About,Projects, Contact, Navbar} from './components';
+import {About,Contact, Navbar} from './components';
 import ProjectList from './components/projectList/ProjectList';
 import {Home, Footer} from './containers';
 import './App.css';
