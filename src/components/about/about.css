@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     margin-top: 15px;
+    position: relative;
 }
 
 .a_left{
