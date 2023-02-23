@@ -108,14 +108,16 @@
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
+        margin-bottom: 15px;
     }
 
     .a .a_right .a_descrip{
         text-align: left;
     }
 
-    .a_left{
+    .a_left {
         width: 100%;
+        margin-top: 0px;
     }
 
     .a_card{
