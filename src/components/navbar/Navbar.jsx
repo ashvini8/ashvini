@@ -38,7 +38,7 @@ const Navbar = () => {
           <li className='n_item'><Link to ='#contact' smooth className='n_link' onClick={handleLinkClick}>Contact</Link></li>
         </ul>
         <div className="n_hamburger" onClick={handleClick}>
-          {click ? (<FaTimes size={30} style={{color: '#2F435A'}}/>) : (<FaBars size={30} style={{color: '#2F435A'}}/>)}
+          {click ? (<FaTimes size={30} style={{color: '#white', marginTop: '10px'}}/>) : (<FaBars size={30} style={{color: 'white', marginTop: '10px'}}/>)}
         </div>
       </div>
     </BrowserRouter>
