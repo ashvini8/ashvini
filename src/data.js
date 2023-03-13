@@ -12,9 +12,9 @@ export const projects = [
   },
   {
     id: 2,
-    name: "System Monitoring Tool Linuz",
+    name: "System Monitoring Tool Linux",
     img: systemTools,
-    link: "https://github.com/ashvini8?tab=repositories",
+    link: "https://github.com/ashvini8/linuxSystemMonitoringTool",
   },
   {
     id: 3,
@@ -32,6 +32,6 @@ export const projects = [
     id: 5,
     name: "Hangman Game Website",
     img: hangman,
-    link: "https://github.com/ashvini8?tab=repositories",
+    link: "https://github.com/ashvini8/hangmanWesbite",
   },
 ];
