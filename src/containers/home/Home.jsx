@@ -17,7 +17,7 @@ const Home = () => {
             </span>
           <div>
             <p className='h_descrip'>
-              I'm a second year Computer Science Student at the University of Toronto specializing in Software Engineering.
+              I'm a third year Computer Science Student at the University of Toronto specializing in Software Engineering.
               I'm open to new experiences within the Software industry and strive to keep learning.
             </p>
           </div>
