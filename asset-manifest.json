@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ashvinihunagund/static/css/main.2350b01d.css",
+    "main.js": "/ashvinihunagund/static/js/main.aed5d520.js",
+    "static/media/me.jpg": "/ashvinihunagund/static/media/me.9f8830a2774fc4d331d8.jpg",
+    "static/media/coursePath.png": "/ashvinihunagund/static/media/coursePath.9665fc68eb5b8f8ad6ed.png",
+    "static/media/goHere.png": "/ashvinihunagund/static/media/goHere.14e60b3784b22c865e19.png",
+    "static/media/systemTools.png": "/ashvinihunagund/static/media/systemTools.8ba5e209869f3e8cae53.png",
+    "static/media/website.png": "/ashvinihunagund/static/media/website.162f83911e00cfefb556.png",
+    "static/media/mastermind.png": "/ashvinihunagund/static/media/mastermind.f0e6cafa54ec5ae477af.png",
+    "static/media/hangman.png": "/ashvinihunagund/static/media/hangman.a551ecbe2b37f992fa72.png",
+    "index.html": "/ashvinihunagund/index.html",
+    "main.2350b01d.css.map": "/ashvinihunagund/static/css/main.2350b01d.css.map",
+    "main.aed5d520.js.map": "/ashvinihunagund/static/js/main.aed5d520.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2350b01d.css",
+    "static/js/main.aed5d520.js"
+  ]
+}
